@@ -1,0 +1,38 @@
+---
+:project_management_tool: jira
+:jira:
+  :email: n.pupko@datarockets.com
+  :token: a7UECRuvefxJbTvdpzcV9EC8
+  :project:
+    :url: https://dealmakerns.atlassian.net
+    :key: DMD
+    :board_id: 23
+
+# trello:
+#   board_id: 092dAmlT
+#   key: 62b20e9eeab2d6e06145c69178521225
+#   token: 5e9793c825840848218d1ecf7689d3e6d418be8dcdc027ffcb0514840a288389
+
+:todo_list_name: To Do
+:in_progress_list_name: In Progress
+:code_review_list_name: Code Review
+:testing_list_name: TESTABLE
+:done_list_name: Done
+
+:toggl:
+  :project_name: DealMaker
+  :token: c9d8f29dc8438eac73a4ccc461905d39
+  :workspace_id: 596582
+  :task_format: '[{issue_id}] {issue_title}'
+
+:github:
+  :token: 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
+  :pr_template:
+    :title: >
+      [{issue_id}] {issue_title}
+    :body: |
+      ## Story
+      [**\[{issue_id}\] {issue_title}**]({issue_url})
+      ## Description
+      Example description of the issue
+
